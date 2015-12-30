@@ -10,21 +10,23 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
+<v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20150919102739.1"><vh>專案架構</vh>
+<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20151007224830.1"><vh>Jupyter 安裝與執行</vh></v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
 <v t="amd.20151009065821.1"><vh>@edit README.md</vh></v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
+<v t="leo.20151230161640.1"><vh>@edit 2015cadp_w12.md</vh></v>
+<v t="leo.20151230165548.1"><vh>@edit 2015cadp_w11.md</vh></v>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww2.md</vh></v>
 <v t="leo.20151031234421.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="leo.20151101151525.1"><vh>@edit 2015cphww5.md</vh></v>
@@ -36,6 +38,52 @@
 </v>
 </v>
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
+<v t="leo.20151230161627.1"><vh>@button open html</vh>
+<v t="leo.20151230161627.2" a="E"><vh>@clean cadp_w11_lecture.html</vh>
+<v t="leo.20151230161627.3"><vh>檔案說明</vh></v>
+<v t="leo.20151230161627.4" a="E"><vh>html 標註</vh>
+<v t="leo.20151230161627.5" a="E"><vh>body 標註</vh>
+<v t="leo.20151230161627.6" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20151230161627.7" a="E"><vh>div class="slides"</vh>
+<v t="leo.20151230161627.8"><vh>班級</vh>
+<v t="leo.20151230161627.15"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo.20151230161627.10"><vh>步驟與說明</vh>
+<v t="leo.20151230161627.15"></v>
+</v>
+<v t="leo.20151230161627.14"><vh>心得與自評</vh>
+<v t="leo.20151230161627.15"></v>
+</v>
+</v>
+</v>
+<v t="leo.20151230161627.16"><vh>script</vh></v>
+</v>
+</v>
+</v>
+</v>
+<v t="leo.20151230165658.1"><vh>@button open html</vh>
+<v t="leo.20151230165658.2"><vh>@clean cadp_w12_lecture.html</vh>
+<v t="leo.20151230165658.3"><vh>檔案說明</vh></v>
+<v t="leo.20151230165658.4" a="E"><vh>html 標註</vh>
+<v t="leo.20151230165658.5" a="E"><vh>body 標註</vh>
+<v t="leo.20151230165658.6" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20151230165658.7" a="E"><vh>div class="slides"</vh>
+<v t="leo.20151230165658.8"><vh>班級</vh>
+<v t="leo.20151230165658.13"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo.20151230165658.10"><vh>步驟與說明1</vh>
+<v t="leo.20151230165658.13"></v>
+</v>
+<v t="leo.20151230165658.12"><vh>心得與自評</vh>
+<v t="leo.20151230165658.13"></v>
+</v>
+</v>
+</v>
+<v t="leo.20151230165658.14"><vh>script</vh></v>
+</v>
+</v>
+</v>
+</v>
 <v t="amd.20150915155634.1"><vh>@clean cadpaw1.html</vh>
 <v t="amd.20150915155634.2" a="E"><vh>html 標註</vh>
 <v t="amd.20150915155634.3" a="E"><vh>head</vh>
@@ -2190,6 +2238,213 @@ jupyter notebook
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
 &lt;/section&gt;
 				
+</t>
+<t tx="leo.20151230161627.1">@language python
+# 導入 os 模組
+import os
+
+# p 為目前所在節點
+for ch in p.children():
+    filename = ch.h.split(" ")[1]
+    os.system("firefox "+filename)</t>
+<t tx="leo.20151230161627.10">&lt;&lt; header &gt;&gt;
+ &lt;section&gt;
+    &lt;h1&gt;步驟與說明1&lt;/h1&gt;
+    &lt;ol&gt;
+    &lt;li&gt;git clone 班上倉儲&lt;/le&gt;
+    &lt;li&gt;git reset --hard回去先前版本&lt;/li&gt;
+    &lt;li&gt;開啟先前版本之LEO&lt;/li&gt;
+    &lt;li&gt;複製節點並貼上至個人倉儲之LEO&lt;/li&gt;    
+    &lt;li&gt;將內容修改後儲存&lt;/li&gt;
+    &lt;li&gt;另存LEO檔至班級倉儲→USER→自己的學號資料夾&lt;/li&gt;
+    &lt;li&gt;儲存檔為自己學號，並上推&lt;/li&gt;
+    &lt;/ol&gt;		
+    &lt;/section&gt;
+    
+&lt;/section&gt;</t>
+<t tx="leo.20151230161627.14">&lt;&lt; header &gt;&gt;
+ &lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;這次作業跟之前的大同小異，不過多了一些新東西&lt;/p&gt;
+    &lt;p&gt;操作起來有點卡卡，不過新增了自己的LEO後&lt;/p&gt;
+    &lt;p&gt;往後修改更加的方便容易&lt;/p&gt;
+    &lt;p&gt;自評60&lt;/p&gt;
+    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151230161627.15">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323237"; }&lt;/style&gt;</t>
+<t tx="leo.20151230161627.16">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20151230161627.2">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20151230161627.3">&lt;!--
+cadp w12 講課內容投影片
+--&gt;
+</t>
+<t tx="leo.20151230161627.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;CADP W12 課程內容&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20151230161627.5">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20151230161627.6">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+
+&lt;!-- 出現在每一頁的 header 格式 --&gt;
+
+&lt;header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:30px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
+
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151230161627.7">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151230161627.8">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;&lt; header &gt;&gt;
+
+    &lt;section&gt;
+    &lt;style&gt;.header1 header:after { content: "Header 1 Example"; }&lt;/style&gt;
+    &lt;h1&gt;四設二乙&lt;/h1&gt;
+    &lt;p&gt;40323237郭育維&lt;/p&gt;
+    &lt;/section&gt;
+    
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20151230165658.1">@language python
+# 導入 os 模組
+import os
+
+# p 為目前所在節點
+for ch in p.children():
+    filename = ch.h.split(" ")[1]
+    os.system("firefox "+filename)</t>
+<t tx="leo.20151230165658.10">&lt;&lt; header &gt;&gt;
+ &lt;section&gt;
+    &lt;h1&gt;步驟與說明&lt;/h1&gt;
+    &lt;ol&gt;
+    &lt;li&gt;至老師的BLOG點開COPY連結，並下載檔案&lt;/le&gt;
+    &lt;li&gt;使用ANA3內的SCITE開啟下載檔案內的FIX.BAT與START.BAT&lt;/li&gt;
+    &lt;li&gt;使用GOOGLE搜尋並下載broke-abbrev&lt;/li&gt;
+    &lt;li&gt;複製broke-abbrev資料夾至FIX資料夾內&lt;/li&gt;    
+    &lt;li&gt;使用SciTE.exe修改fix.bat 新增"copy leo-editor-broke-abbrev.zip C:\Ana3_2015\data\"&lt;/li&gt;
+    &lt;li&gt;使用SciTE.exe修改start.bat的第35行改為pip install leo-editor-broke-abbrev.zip&lt;/li&gt;
+    &lt;li&gt;完成&lt;/li&gt;
+    &lt;/ol&gt;		
+    &lt;/section&gt;
+    
+&lt;/section&gt;</t>
+<t tx="leo.20151230165658.12">&lt;&lt; header &gt;&gt;
+ &lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;這次的作業是將軟體升級成新版&lt;/p&gt;
+    &lt;p&gt;不過由於原本自己電腦內的就是5.1版所以看不太出來哪裡有變化&lt;/p&gt;
+    &lt;p&gt;自評60&lt;/p&gt;
+    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151230165658.13">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323237"; }&lt;/style&gt;</t>
+<t tx="leo.20151230165658.14">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20151230165658.2">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20151230165658.3">&lt;!--
+cadp w12 講課內容投影片
+--&gt;
+</t>
+<t tx="leo.20151230165658.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;CADP W12 課程內容&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20151230165658.5">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20151230165658.6">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+
+&lt;!-- 出現在每一頁的 header 格式 --&gt;
+
+&lt;header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:30px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
+
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151230165658.7">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151230165658.8">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;&lt; header &gt;&gt;
+
+    &lt;section&gt;
+    &lt;style&gt;.header1 header:after { content: "Header 1 Example"; }&lt;/style&gt;
+    &lt;h1&gt;四設二乙&lt;/h1&gt;
+    &lt;p&gt;40323237郭育維&lt;/p&gt;
+    &lt;/section&gt;
+    
+&lt;/section&gt;
+	
 </t>
 </tnodes>
 </leo_file>
