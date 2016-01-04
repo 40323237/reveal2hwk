@@ -25,6 +25,7 @@
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
+<v t="leo.20160104174620.1"><vh>@edit 2015cadp_w14.md</vh></v>
 <v t="2015cp.20160103213744.1"><vh>@edit 2015cadp_w13.md</vh></v>
 <v t="leo.20151230161640.1"><vh>@edit 2015cadp_w12.md</vh></v>
 <v t="leo.20151230165548.1"><vh>@edit 2015cadp_w11.md</vh></v>
@@ -39,31 +40,8 @@
 </v>
 </v>
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
-<v t="2015cp.20160103213846.1"><vh>@button open html</vh>
-<v t="2015cp.20160103213846.2" a="E"><vh>@clean cadp_w13_lecture.html</vh>
-<v t="2015cp.20160103213846.3"><vh>檔案說明</vh></v>
-<v t="2015cp.20160103213846.4" a="E"><vh>html 標註</vh>
-<v t="2015cp.20160103213846.5" a="E"><vh>body 標註</vh>
-<v t="2015cp.20160103213846.6" a="E"><vh>div class="reveal"</vh>
-<v t="2015cp.20160103213846.7" a="E"><vh>div class="slides"</vh>
-<v t="2015cp.20160103213846.8"><vh>班級</vh>
-<v t="2015cp.20160103213846.13"><vh>&lt;&lt; header &gt;&gt;</vh></v>
-</v>
-<v t="2015cp.20160103213846.10"><vh>步驟與說明1</vh>
-<v t="2015cp.20160103213846.13"></v>
-</v>
-<v t="2015cp.20160103213846.12"><vh>心得與自評</vh>
-<v t="2015cp.20160103213846.13"></v>
-</v>
-</v>
-</v>
-<v t="2015cp.20160103213846.14"><vh>script</vh></v>
-</v>
-</v>
-</v>
-</v>
-<v t="leo.20151230161627.1"><vh>@button open html</vh>
-<v t="leo.20151230161627.2" a="E"><vh>@clean cadp_w11_lecture.html</vh>
+<v t="leo.20151230161627.1" a="E"><vh>@button open html</vh>
+<v t="leo.20151230161627.2"><vh>@clean cadp_w11_lecture.html</vh>
 <v t="leo.20151230161627.3"><vh>檔案說明</vh></v>
 <v t="leo.20151230161627.4" a="E"><vh>html 標註</vh>
 <v t="leo.20151230161627.5" a="E"><vh>body 標註</vh>
@@ -85,7 +63,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151230165658.1"><vh>@button open html</vh>
+<v t="leo.20151230165658.1" a="E"><vh>@button open html</vh>
 <v t="leo.20151230165658.2"><vh>@clean cadp_w12_lecture.html</vh>
 <v t="leo.20151230165658.3"><vh>檔案說明</vh></v>
 <v t="leo.20151230165658.4" a="E"><vh>html 標註</vh>
@@ -104,6 +82,52 @@
 </v>
 </v>
 <v t="leo.20151230165658.14"><vh>script</vh></v>
+</v>
+</v>
+</v>
+</v>
+<v t="2015cp.20160103213846.1" a="E"><vh>@button open html</vh>
+<v t="2015cp.20160103213846.2"><vh>@clean cadp_w13_lecture.html</vh>
+<v t="2015cp.20160103213846.3"><vh>檔案說明</vh></v>
+<v t="2015cp.20160103213846.4" a="E"><vh>html 標註</vh>
+<v t="2015cp.20160103213846.5" a="E"><vh>body 標註</vh>
+<v t="2015cp.20160103213846.6" a="E"><vh>div class="reveal"</vh>
+<v t="2015cp.20160103213846.7" a="E"><vh>div class="slides"</vh>
+<v t="2015cp.20160103213846.8"><vh>班級</vh>
+<v t="2015cp.20160103213846.13"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="2015cp.20160103213846.10"><vh>步驟與說明1</vh>
+<v t="2015cp.20160103213846.13"></v>
+</v>
+<v t="2015cp.20160103213846.12"><vh>心得與自評</vh>
+<v t="2015cp.20160103213846.13"></v>
+</v>
+</v>
+</v>
+<v t="2015cp.20160103213846.14"><vh>script</vh></v>
+</v>
+</v>
+</v>
+</v>
+<v t="leo.20160104175037.1" a="E"><vh>@button open html</vh>
+<v t="leo.20160104175037.2"><vh>@clean cadp_w14_lecture.html</vh>
+<v t="leo.20160104175037.3"><vh>檔案說明</vh></v>
+<v t="leo.20160104175037.4" a="E"><vh>html 標註</vh>
+<v t="leo.20160104175037.5" a="E"><vh>body 標註</vh>
+<v t="leo.20160104175037.6" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20160104175037.7" a="E"><vh>div class="slides"</vh>
+<v t="leo.20160104175037.8"><vh>班級</vh>
+<v t="leo.20160104175037.13"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo.20160104175037.10"><vh>步驟與說明</vh>
+<v t="leo.20160104175037.13"></v>
+</v>
+<v t="leo.20160104175037.12"><vh>心得與自評</vh>
+<v t="leo.20160104175037.13"></v>
+</v>
+</v>
+</v>
+<v t="leo.20160104175037.14"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -2558,6 +2582,107 @@ cadp w12 講課內容投影片
 &lt;/div&gt;
 </t>
 <t tx="leo.20151230165658.8">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;&lt; header &gt;&gt;
+
+    &lt;section&gt;
+    &lt;style&gt;.header1 header:after { content: "Header 1 Example"; }&lt;/style&gt;
+    &lt;h1&gt;四設二乙&lt;/h1&gt;
+    &lt;p&gt;40323237郭育維&lt;/p&gt;
+    &lt;/section&gt;
+    
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20160104175037.1">@language python
+# 導入 os 模組
+import os
+
+# p 為目前所在節點
+for ch in p.children():
+    filename = ch.h.split(" ")[1]
+    os.system("firefox "+filename)</t>
+<t tx="leo.20160104175037.10">&lt;&lt; header &gt;&gt;
+ &lt;section&gt;
+    &lt;h1&gt;步驟與說明1&lt;/h1&gt;
+    &lt;ol&gt;
+    &lt;li&gt;開啟ONSHAPE&lt;/le&gt;
+    &lt;li&gt;打開其他組員的共用零件&lt;/li&gt;
+    &lt;li&gt;依照工作圖組立&lt;/li&gt;
+    &lt;li&gt;完成&lt;/li&gt;
+    &lt;/ol&gt;		
+    &lt;/section&gt;
+    
+&lt;/section&gt;</t>
+<t tx="leo.20160104175037.12">&lt;&lt; header &gt;&gt;
+ &lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;ONSHAPE是個創新的雲端會圖軟體，但是如果網路不夠順&lt;/p&gt;
+    &lt;p&gt;或者是瀏覽器插件太多都會造成會圖不順暢，而且功能較陽春。&lt;/p&gt;
+    &lt;p&gt;但因為可以跨平台執行，算是很方便的一項工具&lt;/p&gt;
+    &lt;p&gt;自評65&lt;/p&gt;
+    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160104175037.13">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323237"; }&lt;/style&gt;</t>
+<t tx="leo.20160104175037.14">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20160104175037.2">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20160104175037.3">&lt;!--
+cadp w12 講課內容投影片
+--&gt;
+</t>
+<t tx="leo.20160104175037.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;CADP W12 課程內容&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20160104175037.5">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20160104175037.6">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+
+&lt;!-- 出現在每一頁的 header 格式 --&gt;
+
+&lt;header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:30px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
+
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160104175037.7">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160104175037.8">&lt;!-- 以下為投影片 --&gt;
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;&lt; header &gt;&gt;
